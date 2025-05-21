@@ -1,0 +1,23 @@
+{
+    "name": "alanvdb/guzzle-stream-factory",
+    "description": "Simple separated Guzzle PSR-7 stream factory.",
+    "type": "library",
+    "require": {
+        "psr/http-factory": "^1.1",
+        "guzzlehttp/psr7": "^2.7",
+        "alanvdb/stream-exceptions": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AlanVdb\\Http\\Factory\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alanvdb",
+            "email": "alanvdb.coder@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
